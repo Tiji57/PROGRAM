@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foot Ball Registration</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Football Registration Form</h1>
+    </header>
+    <form>
+    <label for="name">Name of the Applicant</label>
+    <input type="text" id="name" name="name" required >
+    <br>
+    <br>
+    <label for="Age">Age</label>
+    <input type="text" id="age" name="age" required>
+    <br>
+    <br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required >
+    <br>
+    <br>
+
+<label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required  pattern="\d{10}">
+   <br><br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+        <option value="" disabled selected>Select your gender</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+    </select>
+    <br>
+    <hr> 
+    <button type="submit" id="submit">Submit</button>  
+</form>
+   
+   
+</body>
+</html>

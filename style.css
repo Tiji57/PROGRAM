@@ -1,0 +1,48 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    font-family: "Sour Gummy", sans-serif;
+}
+h1{
+    border: 2px solid;
+    border-color: goldenrod;
+    margin: 10px 30px,;
+}
+nav ul li{
+    list-style: none;
+
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:rgb(74, 44, 8);
+}
+#highlight{
+    text-decoration: underline;
+    border: 1px solid;
+    color:darkgrey;
+    background-color: aquamarine;
+    
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.para_style
+{
+    text-align: center;
+}
+#bd{
+    width: 150px;
+}
+a:hover{
+    color: green;
+
+}
+a{
+    transition: ease-in-out;
+}
